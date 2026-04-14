@@ -669,7 +669,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           # TODO: Clone from sigrok.org
-          repository: sigrokproject/pulseview
+          repository: danielkucera/pulseview
           path: pulseview
 
       - name: Checkout PulseView from PR
